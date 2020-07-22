@@ -16,6 +16,9 @@ public interface UserService
      */
     List<User> findAll();
 
+    User findByName(String name);
+
+
     /**
      * Returns the user with the given primary key.
      *
