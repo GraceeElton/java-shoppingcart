@@ -56,4 +56,3 @@ The number must be larger than the last used id.
  */
 
 alter sequence hibernate_sequence restart with 15;
-
